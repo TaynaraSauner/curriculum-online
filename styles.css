@@ -25,21 +25,25 @@ dd {
 
 body {
     
-    background-color: rgb(2,0,36);
-    background: linear-gradient(190deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);
-    font-family: "inter" Arial, Helvetica, sans-serif
-
- }
-#header {
+    background-color: rgb(255, 255, 255);
+    font-family: "inter" Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    height: auto; */
     width: 1000px;
     height: 300px;
+    padding: 0px;
+    margin: auto;
+ }
+#header {
     display: flex;
     gap: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(167, 158, 164);
     padding: 10px;
+    padding: 10px;
+    border: 5px ;
+    margin: auto;
+
     
-
-
 }
 #nome  h1 { 
     font-size: 50px;
@@ -50,8 +54,9 @@ body {
     font: bold;
 }
 
-#endereco li {
+#endereco p {
     font-size: 20px;
+    
     
 }
 #foto img {
@@ -61,19 +66,44 @@ body {
     margin-top: 10px;
     align-items: end;
 
+} 
+ 
+#conteudo {
+    padding: 0 100px;
+    
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
 
-
-
-
-
-
-
+}
+#experiencias h3 {
+    padding-top: 20px;
+    font: bold;
+}
+#experiencias h5{
+    padding-top: 10px;
+}
+#formacao h3{
+    padding-top: 20px;
+    font: bold;
+}
+#formacao h5{
+    padding-top: 20px;
+}
 #corpo {
-    background-color: azure;
+    margin:10px 10px 20px 0;
 }
+#corpo h2 {
+   padding: 0 0 20px;
 
-#final {
-    background-color: bisque;
+}
+div#endereco {
+    text-align: right;
+    padding: 10px;
+    
+}
+div#nome {
+    padding: 10px;
 }
