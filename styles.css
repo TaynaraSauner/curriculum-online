@@ -25,7 +25,7 @@ dd {
 
 body {
     
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(209, 158, 198);
     font-family: "inter" Arial, Helvetica, sans-serif;
     /* margin: 0;
     height: auto; */
@@ -33,11 +33,12 @@ body {
     height: 300px;
     padding: 0px;
     margin: auto;
+    max-width: 1000px;
  }
 #header {
     display: flex;
     gap: 20px;
-    background-color: rgb(167, 158, 164);
+    background-color: #b9689e;
     padding: 10px;
     padding: 10px;
     border: 5px ;
@@ -56,8 +57,15 @@ body {
 
 #endereco p {
     font-size: 20px;
-    
-    
+    font: bold;   
+
+}
+#endereco a {
+    &:hover {
+        color: #5c0a37;
+        text-decoration: underline;
+    }
+    color: black;
 }
 #foto img {
     width: 250px;
@@ -70,6 +78,8 @@ body {
  
 #conteudo {
     padding: 0 100px;
+    background-color: rgb(197, 150, 187);
+    height: auto;
     
 }
 
@@ -78,32 +88,54 @@ body {
     grid-template-columns: 50% 50%;
 
 }
-#experiencias h3 {
+#experiencias h3,
+#formacao h3 {
     padding-top: 20px;
     font: bold;
 }
-#experiencias h5{
+#experiencias h5, 
+#formacao h5{
     padding-top: 10px;
 }
-#formacao h3{
-    padding-top: 20px;
-    font: bold;
-}
-#formacao h5{
-    padding-top: 20px;
-}
+
 #corpo {
-    margin:10px 10px 20px 0;
+    margin:0px 10px 20px 0;
 }
 #corpo h2 {
-   padding: 0 0 20px;
+
+   font-size: 50px;
 
 }
-div#endereco {
+#endereco {
     text-align: right;
     padding: 10px;
+    margin-top: 20px;
     
 }
-div#nome {
+#nome {
     padding: 10px;
 }
+#experiencias h1,
+#formacao h1,
+#interesses h1,
+#linguas h1
+ {
+    font-size: 30px;
+    font: bold;
+}
+@media (max-width:700px)
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:300px){
+    #foto img{
+        max-width: 200px;
+    }
+    #body {
+        padding: 0 20px;
+    }
+}
+
+ 
