@@ -25,8 +25,8 @@ dd {
 
 body {
     
-    background-color: rgb(209, 158, 198);
-    font-family: "inter" Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: 'inter' Arial, Helvetica, sans-serif;
     /* margin: 0;
     height: auto; */
     width: 1000px;
@@ -70,7 +70,7 @@ body {
 #foto img {
     width: 250px;
     height: 250px;
-    border-radius: 48%;
+    border-radius: 100%;
     margin-top: 10px;
     align-items: end;
 
