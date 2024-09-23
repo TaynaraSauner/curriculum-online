@@ -123,19 +123,47 @@ body {
     font-size: 30px;
     font: bold;
 }
-@media (max-width:700px)
+@media (max-width:500px){
     #header {
+        height: auto;
+        padding: 20px 20px;
+    }
+    #endereco {
+        text-align: left;
+        padding: 10px;
+    }
+    #foto img {
+        max-width: 150px;
+        height: auto;
+    }
+    #experiencias {
+        min-height: auto;
+    }
+    #formacao{
+        min-height: auto;
+    }
+    #interesses {
+        min-height: auto;
+    }
+    #linguas {
+        min-height: auto;
+    }
+}
+
+
+@media(max-width:300px){
+    #foto img{
+        max-width: 120px;
+    }
+    #foto img{
+        max-width: 150px;
+        height: auto;
+    }
+    .container {
         flex-direction: column;
         align-items: center;
     }
-}
-@media(max-width:300px){
-    #foto img{
-        max-width: 200px;
-    }
-    #body {
-        padding: 0 20px;
-    }
+ 
 }
 
  
