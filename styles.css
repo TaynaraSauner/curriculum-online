@@ -46,6 +46,9 @@ body {
 
     
 }
+#nome {
+    color: #ffff;
+}
 #nome  h1 { 
     font-size: 50px;
     font: bold;
@@ -58,6 +61,7 @@ body {
 #endereco p {
     font-size: 20px;
     font: bold;   
+    color: #ffff;
 
 }
 #endereco a {
@@ -65,7 +69,7 @@ body {
         color: #5c0a37;
         text-decoration: underline;
     }
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #foto img {
     width: 250px;
@@ -86,8 +90,11 @@ body {
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    gap: 10px;
 
 }
+
 #experiencias h3,
 #formacao h3 {
     padding-top: 20px;
@@ -123,6 +130,11 @@ body {
     font-size: 30px;
     font: bold;
 }
+
+h3, h5, h1, li {
+    margin: 10px 0px;
+}
+
 @media (max-width:500px){
     #header {
         height: auto;
