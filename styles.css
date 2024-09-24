@@ -24,7 +24,7 @@ dd {
 }
 
 body {
-    
+
     background-color: rgb(255, 255, 255);
     font-family: 'inter' Arial, Helvetica, sans-serif;
     /* margin: 0;
@@ -34,25 +34,29 @@ body {
     padding: 0px;
     margin: auto;
     max-width: 1000px;
- }
+}
+
 #header {
     display: flex;
     gap: 20px;
     background-color: #b9689e;
     padding: 10px;
     padding: 10px;
-    border: 5px ;
+    border: 5px;
     margin: auto;
 
-    
+
 }
+
 #nome {
     color: #ffff;
 }
-#nome  h1 { 
+
+#nome h1 {
     font-size: 50px;
     font: bold;
 }
+
 #nome h4 {
     font-size: 20px;
     font: bold;
@@ -60,17 +64,20 @@ body {
 
 #endereco p {
     font-size: 20px;
-    font: bold;   
+    font: bold;
     color: #ffff;
 
 }
+
 #endereco a {
     &:hover {
         color: #5c0a37;
         text-decoration: underline;
     }
+
     color: rgb(255, 255, 255);
 }
+
 #foto img {
     width: 250px;
     height: 250px;
@@ -78,13 +85,13 @@ body {
     margin-top: 10px;
     align-items: end;
 
-} 
- 
+}
+
 #conteudo {
     padding: 0 100px;
     background-color: rgb(197, 150, 187);
     height: auto;
-    
+
 }
 
 .container {
@@ -92,92 +99,105 @@ body {
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
     gap: 33px;
-}
-div {
     text-align: justify;
 }
+
 
 #experiencias h3,
 #formacao h3 {
     padding-top: 20px;
     font: bold;
 }
-#experiencias h5, 
-#formacao h5{
+
+#experiencias h5,
+#formacao h5 {
     padding-top: 10px;
 }
 
 #corpo {
-    margin:0px 10px 20px 0;
+    margin: 0px 10px 20px 0;
+    text-align: justify;
 }
+
 #corpo h2 {
 
-   font-size: 50px;
+    font-size: 50px;
 
 }
+
 #endereco {
     text-align: right;
     padding: 10px;
     margin-top: 20px;
-    
+
 }
+
 #nome {
     padding: 10px;
 }
+
 #experiencias h1,
 #formacao h1,
 #interesses h1,
-#linguas h1
- {
+#linguas h1 {
     font-size: 30px;
     font: bold;
 }
 
-h3, h5, h1, li {
+h3,
+h5,
+h1,
+li {
     margin: 10px 0px;
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
     #header {
         height: auto;
         padding: 20px 20px;
     }
+
     #endereco {
         text-align: left;
         padding: 10px;
     }
+
     #foto img {
         max-width: 150px;
         height: auto;
     }
+
     #experiencias {
         min-height: auto;
     }
-    #formacao{
+
+    #formacao {
         min-height: auto;
     }
+
     #interesses {
         min-height: auto;
     }
+
     #linguas {
         min-height: auto;
     }
 }
 
 
-@media(max-width:300px){
-    #foto img{
+@media(max-width:300px) {
+    #foto img {
         max-width: 120px;
     }
-    #foto img{
+
+    #foto img {
         max-width: 150px;
         height: auto;
     }
+
     .container {
         flex-direction: column;
         align-items: center;
     }
- 
-}
 
- 
+}
